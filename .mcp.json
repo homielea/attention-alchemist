@@ -2,10 +2,7 @@
   "mcpServers": {
     "vidiq": {
       "command": "npx",
-      "args": ["-y", "@vidiq/mcp-server"],
-      "env": {
-        "VIDIQ_API_KEY": "${VIDIQ_API_KEY}"
-      }
+      "args": ["-y", "@vidiq/mcp-server"]
     }
   }
 }
