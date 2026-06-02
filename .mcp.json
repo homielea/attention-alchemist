@@ -4,7 +4,7 @@
       "command": "npx",
       "args": ["-y", "@vidiq/mcp-server"],
       "env": {
-        "VIDIQ_API_KEY": "your_key_here"
+        "VIDIQ_API_KEY": "${VIDIQ_API_KEY}"
       }
     }
   }
